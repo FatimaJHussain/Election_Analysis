@@ -12,7 +12,7 @@ with open(file_to_load) as election_data:
    # Read and print the header row.
    headers = next(reader)
    print(headers)
-     # To do: perform analysis.
-   #for row in reader:
-         #  print(reader)
+     #To do: perform analysis.
+   for row in reader:
+          print(reader)
 
